@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+form{
+	width: 40%;
+	margin: auto;
+	background: #0F196D;
+	padding: 40px;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+form .form-enc{
+	padding: 20px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+form .form-cuerpo{
+	padding: 20px;
+	border-bottom: 1px solid black;
+}
+form .form-pie{
+	padding: 20px;
+	text-align: center;
+
+}
+form label, form input{
+	display: inline-block;
+	margin: 10px;
+}
+form label{
+	width: 30%;
+	text-align: left;
+}
+form input{
+	width: 50%;
+}
+form a{
+	display: inline-block;
+	padding: 10px;
+	background: #black;
+	color: #black;
+	text-decoration: none;
+	border-radius: 5px;
+}
+form a:hover{
+	background: rgba(0,0,0,0.0);
+}

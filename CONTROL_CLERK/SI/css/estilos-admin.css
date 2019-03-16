@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Spicy+Rice');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Clases especiales */
+.borde{
+	border: 1px solid white;
+}
+/* Cuerpo */
+body{
+	font-family: 'Spicy Rice', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Contenedor */
+.contenedor{
+	width: 100%;
+	max-width: 1280px;
+	height: 100vh;
+	margin: auto;
+}
+
+/* Navegador */
+nav{
+	width: 100%;
+	height: 50px;
+	background: #0F196D;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+}
+nav ul li a{
+	display: block;
+	padding: 12px 0px;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid gray;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.5);
+}
+.logo{
+	width: 20%;
+	height: 100%;
+	padding: 5px;
+	float: left;
+	background: #0F196D;
+	text-align: center;	
+}
+.logo img{
+	width: auto;
+	height: 100%;
+}
+.navegacion{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+.documentacion{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.notificacion{
+	width: 80%;
+	height: 100%;
+	float: left;	
+}
+.configura{
+	width: 15%;
+	height: 100%;
+	float: left;	
+}
+.configura ul li{
+	width: 100%;
+}
+/* Principal */
+main{
+	width: 100%;
+	height: 800px;
+}
+
+/* Barra lateral */
+aside{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: #0F196D;
+}
+.perfil{
+	width: 100%;
+	height: 16%;
+}
+.perfil .foto{
+	width: 40%;
+	height: 100%;
+	padding: 28px 15px 15px 15px;
+	float: left;
+
+}
+.foto img{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+}
+.perfil .info-perfil{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.modulo{
+	width: 100%;
+	height: 28%;
+	padding: 10px;
+	color: #fff;
+}
+.modulo h2{
+	text-align: center;
+}
+.modulo a{
+	/*text-decoration: none;*/
+	display: block;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+/* Área de trabajo */
+section{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+/* Pie de página */
+footer{
+	width: 100%;
+	height: 50px;
+	background: #0F196D;
+}
+.footer-izq{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: #0F196D;
+}
+.footer-der{
+	width: 80%;
+	height: 100%;
+	padding: 5px;
+	float: left;
+	text-align: right;
+	font-size: 0.9em;
+}
